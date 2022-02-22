@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Contacto | Goler</title>
+
+	<!-- Tipografía -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600;700&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+
+	<!-- Archivo CSS -->
+	<link rel="stylesheet" href="../css/style.css"/>
+</head>
+
+
+<body>
+	<header>
+		<!-- Logo -->
+		<div><a href="../index.html"><img src="../assets/img/logo_goler.svg" alt="Logo de Goler"></a></div>
+		<!-- Navegación -->
+		<nav>
+			<uL>
+				<li class="nav__item"><a class="nav__link" href="servicios.html">SERVICIOS</a></li>
+				<li class="nav__item"><a class="nav__link" href="planes.html">PLANES</a></li>
+				<li class="nav__item"><a class="nav__link" href="nosotros.html">NOSOTROS</a></li>
+				<li class="nav__item"><a class="nav__link" href="contacto.html">CONTACTO</a></li>
+			</ul>
+	</header>
+
+	<main>
+		<section class="page__background">
+			<div>
+				<h1>Comenzá <div class="font__color--violet">tu proyecto</div>ahora!</h1>
+			</div>
+			<div>
+				<img src="../assets/img/contacto_hands.png" alt="Apretón de manos" class="image--size">
+			</div>
+		</section>
+
+
+		<section class="contacto__grids">
+			<div>
+			  <form action="#" class="form__contacto">
+			  	<div>
+				  	<label for="nombre" class="form__position"> Nombre:
+				  		<input type="text" name="nombre" class="form__input--dark">
+				  	</label>
+				  	
+				  	<label for="apellido" class="form__position"> Apellido:
+				  		<input type="text" name="apellido" class="form__input--dark">
+				  	</label>
+
+				  	<label for="email" class="form__position"> E-mail:
+				  		<input type="email" name="email" class="form__input--dark">
+				  	</label>
+
+				  	<label class="form__position">Mensaje:</label>
+				  	<textarea name="mensaje" id="" cols="30" rows="10" class="form__input--message"></textarea> <br><br>
+				</div>
+
+			  	<div>
+				  	<input type="checkbox" name="aceptar" value="1">
+				  	Acepto términos y condiciones <br><br>
+			  	</div>
+
+			  	<div class="form__position">
+			  		<input type="submit" name="Enviar" class="btn">
+			  		<input type="reset" name="Reset" class="btn__secundary">
+			  	</div>
+			  </form>
+			</div>
+
+			<div class="background-color--violet">
+				<h3>Visitanos en nuestras oficinas:</h3>
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1684.1723464083977!2d-63.24351382079876!3d-32.40992379812643!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95cc42e7605407ed%3A0x7e7b8f2cf6b43d42!2zSm9zw6kgSW5nZW5pZXJvcyA1NiwgVmlsbGEgTWFyw61hLCBDw7NyZG9iYQ!5e0!3m2!1ses-419!2sar!4v1643010552100!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" class="rounded image"></iframe>
+			</div>
+		</section>
+	</main>
+
+
+	<footer>	
+		<section class="footer__position"><!-- Logo -->
+			<div>
+				<img src="../assets/img/logo_goler.svg" alt="Logo de Goler">
+			</div>
+
+			<!-- Newsletter -->
+			<article>
+				<form>
+					<h3>Suscribite a nuestro Newsletter:</h3>
+					<div>
+						<label for="name" class="form__position">Nombre:
+							<input type="text" name="nombre" class="form__input">
+						</label>
+						<label for="email" class="form__position">E-mail:
+							<input type="email" name="email" class="form__input">
+						</label>
+					</div>
+					<div>
+						<input type="submit" value="Suscribirse" name="Suscribirse" class="btn">
+					</div>
+				</form>
+			</article>
+
+			<nav>
+				<h3>Navegación</h3>
+				<li class="footer__nav--item"><a class="footer__nav--link" href="servicios.html">Servicios</a></li>
+				<li class="footer__nav--item"><a class="footer__nav--link" href="planes.html">Planes</a></li>
+				<li class="footer__nav--item"><a class="footer__nav--link" href="nosotros.html">Nosotros</a></li>
+				<li class="footer__nav--item"><a class="footer__nav--link" href="contacto.html">Contacto</a></li>
+			</nav>
+
+			<!-- Redes Sociales -->
+			<article>
+				<h3>Seguinos:</h3>
+				<img src="../assets/img/logo_facebook.svg" alt="Facebook" class="footer__rrss">
+				<img src="../assets/img/logo_instagram.svg" alt="Instagram" class="footer__rrss">
+				<img src="../assets/img/logo_linkedin.svg" alt="LinkedIn" class="footer__rrss">
+			</article>
+		</section>	
+
+		<article>
+			<p>Copyright © 2022 Rodrigo Wagner. All Rights Reserved.</p>
+			<p>This product is protected by copyright and distributed under licenses restricting copying, distribution, anddecompilation.</p>
+		</article>
+	</footer>
+</body>
+</html>
