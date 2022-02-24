@@ -11,9 +11,10 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600;700&display=swap" rel="stylesheet">
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+
+	 <!-- Animaciones -->
+	<link rel="stylesheet" href="../css/animate.css">
 
 	<!-- Archivo CSS -->
 	<link rel="stylesheet" href="../css/style.css"/>
@@ -23,7 +24,7 @@
 <body>
 	<header>
 		<!-- Logo -->
-		<div><a href="../index.html"><img src="../assets/img/logo_goler.svg" alt="Logo de Goler"></a></div>
+		<div><a href="../index.html"><img src="../assets/img/logo_goler.svg" alt="Logo de Goler" class="logo"></a></div>
 		<!-- Navegación -->
 		<nav>
 			<uL>
@@ -37,7 +38,7 @@
 	<main>
 		<section class="page__background">
 			<div>
-				<h1>Sobre<div class="font__color--violet">Nosotros</div></h1>
+				<h1 class="wow animate__animated animate__fadeInLeft">Sobre<div class="font__color--violet">Nosotros</div></h1>
 			</div>
 		</section>
 
@@ -45,9 +46,10 @@
 	</main>
 
 	<footer>	
-		<section class="footer__position"><!-- Logo -->
+		<section class="footer__position">
+			<!-- Logo -->
 			<div>
-				<img src="../assets/img/logo_goler.svg" alt="Logo de Goler">
+				<img src="../assets/img/logo_goler.svg" alt="Logo de Goler" class="logo">
 			</div>
 
 			<!-- Newsletter -->
@@ -90,5 +92,9 @@
 			<p>This product is protected by copyright and distributed under licenses restricting copying, distribution, anddecompilation.</p>
 		</article>
 	</footer>
+	<script src="../js/wow.min.js"></script>
+	<script>
+		new WOW().init();
+	</script>
 </body>
 </html>
